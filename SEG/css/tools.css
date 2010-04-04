@@ -1,0 +1,10 @@
+.tooldesc
+{
+	min-height: 200px;
+}
+
+.tooldesc img
+{
+	float: left;
+	padding-right: 10px;
+}

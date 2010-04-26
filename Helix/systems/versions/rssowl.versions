@@ -1,0 +1,46 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=rssOwl RSS Reader
+%type=Application
+%desc=RSS Reader
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Processing Directives (format: ><Directive>:<Value>) ######
+
+# Included Packages #
+
+>includePackage:rssowl
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,0.6.0,rssowl-0.6.0
+2,0.7.0,rssowl-0.7.0
+3,0.8.0,rssowl-0.8.0
+4,0.8.1,rssowl-0.8.1
+5,0.8.2,rssowl-0.8.2
+6,0.9.0,rssowl-0.9b
+7,1.0.0,rssowl-1.0
+8,1.1.0,rssowl-1.1
+9,1.1.2,rssowl-1.1.2
+10,1.2.0,rssowl-1.2.0
+11,1.2.1,rssowl-1.2.1
+12,1.2.3,rssowl-1.2.3
+13,2.0-RC1,rssowl-2.0-RC1
+14,2.0-RC2,rssowl-2.0-RC2
+15,2.0-RC3,rssowl-2.0-RC3
+16,2.0,rssowl-2.0
+17,2.0.1,rssowl-2.0.1
+18,2.0.2,rssowl-2.0.2
+19,2.0.3,rssowl-2.0.3
+20,2.0.4,rssowl-2.0.4

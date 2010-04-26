@@ -1,0 +1,54 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Tapestry framework
+%type=Framework
+%desc=Web application development framework
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://tapestry.apache.org/
+@release-notes=https://issues.apache.org/jira/browse/TAPESTRY?report=com.atlassian.jira.plugin.system.project:changelog-panel
+@defect-log=https://issues.apache.org/jira/browse/TAPESTRY
+
+
+##### Processing Directives (format: ><Directive>:<Value>) ######
+
+# Included Packages #
+
+>includePackage:tapestry
+
+# Excluded Packages #
+
+>excludePackage:test
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,2.2.0,tapestry-2.2
+2,3.0b1,tapestry-3.0-beta-1a
+3,3.0b2,tapestry-3.0-beta-2
+4,3.0.0,tapestry-3.0
+5,3.1a1,tapestry-3.1-alpha-1
+6,4.0a2,tapestry-4.0-alpha-2
+7,4.0a3,tapestry-4.0-alpha-3
+8,4.0b1,tapestry-4.0-beta-1
+9,4.0b13,tapestry-4.0-beta-13
+10,4.0.0,tapestry-4.0
+11,4.1.0,tapestry-4.1
+12,4.1.1,tapestry-4.1.1
+13,5.0.4,tapestry-5.0.4
+14,5.0.5,tapestry-5.0.5
+15,5.0.6,tapestry-5.0.6
+16,5.0.7,tapestry-5.0.7
+17,5.0.9,tapestry-5.0.9
+18,5.0.10,tapestry-5.0.10
+19,5.0.11,tapestry-5.0.11
+20,5.0.12,tapestry-5.0.12
+21,5.0.13,tapestry-5.0.13
+22,5.0.14,tapestry-5.0.14
+23,5.0.15,tapestry-5.0.15
+24,5.0.18,tapestry-5.0.18

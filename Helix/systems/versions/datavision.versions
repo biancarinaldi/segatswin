@@ -1,0 +1,37 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=DataVision
+%type=Application
+%desc=Reporting tool
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,0.2.0,datavision-0.2.0
+2,0.3.0,datavision-0.3.0
+3,0.4.0,datavision-0.4.0
+4,0.4.2,datavision-0.4.2
+5,0.5.0,datavision-0.5.0
+6,0.6.0,datavision-0.6.0
+7,0.7.0,datavision-0.7.0
+8,0.7.4,datavision-0.7.4
+9,0.7.8,datavision-0.7.8
+10,0.8.0,datavision-0.8.0
+11,0.8.2,datavision-0.8.2
+12,0.8.4,datavision-0.8.4
+13,0.9.0,datavision-0.9.0
+14,1.0.0,datavision-1.0.0
+15,1.1.0,datavision-1.1.0
+16,1.2r1,datavision-1.2rc1
+17,1.2r2,datavision-1.2rc2
+18,1.2.0,datavision-1.2.0

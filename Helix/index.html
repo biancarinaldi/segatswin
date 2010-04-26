@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Helix</title>
+	<link rel="stylesheet" href="css/site.css" type="text/css" />
 </head>
 <body>
 <div id="container">
@@ -12,12 +13,27 @@
 		</div>
 		<ul id="nav">
 			<li><a href="#">Home</a></li>
+			<li><a href="overview">Overview</a></li>
 			<li><a href="rawdata">Raw Data</a></li>
 			<li><a href="metricdata">Extracted Metric Data</a></li>
 			<li><a href="reports">Analysed Reports</a></li>
 			<li><a href="citing">Citing the Data</a></li>
 			<li><a href="collaborate">Collaborate</a></li>
 		</ul>
+	</div>
+	<div id="main">
+		<div id="content">
+			<p>Helix is a organised collection of open source Java software systems and their associated release histories made available for the purposes of conducting empirical research in the area of <a href="evolution">software evolution</a>.</p>
+			
+			<p>Currently, we have <a href="systems">41 systems</a> that form Helix, encompassing various different types of open source Java software systems. The <a href="distribution">distribution package</a> for each  of the systems we have available contains:</p>
+			<ul>
+				<li><a href="rawdata">Raw Data</a> (compiled Java bytecode packaged in .jar files) for each of the systems releases</li>
+				<li><a href="metricdata">Metric Data</a> extracted from the system (compiled Java bytecode packaged in .jar files)</li>
+				<li>Descriptive metadata (general information about the system and the list of significant releases)</li>
+			</ul>
+			<p>The <a href="mutations">Mutations software evolution tool</a> provides a means of extracting and analysing the data contained within the Helix system distributions, producing reports that portray the growth and change of the systems and attempt to explain it's nature.</p>
+			<p>Helix is controlled and maintained by the <a href="seg">Software Evolution Group</a> @ Swinburne University of Technology.</p>
+		</div>
 	</div>
 </div>
 </body>

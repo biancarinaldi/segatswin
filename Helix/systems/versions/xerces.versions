@@ -1,0 +1,38 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Xerces2 XML parser
+%type=Library
+%desc=XML processor
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://xerces.apache.org/xerces2-j/
+@release-notes=http://xerces.apache.org/xerces2-j/releases.html
+@defect-log=https://issues.apache.org/jira/browse/XERCESJ?report=com.atlassian.jira.plugin.system.project:openissues-panel
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,2.0a1,xerces-2.0a1
+2,2.0b1,xerces-2.0b1
+3,2.0b3,xerces-2.0b3
+4,2.0b4,xerces-2.0b4
+5,2.0.0,xerces-2.0.0
+6,2.0.2,xerces-2.0.2
+7,2.1.0,xerces-2.1.0
+8,2.2.0,xerces-2.2.0
+9,2.2.1,xerces-2.2.1
+10,2.3.0,xerces-2.3.0
+11,2.4.0,xerces-2.4.0
+12,2.5.0,xerces-2.5.0
+13,2.6.0,xerces-2.6.0
+14,2.6.1,xerces-2.6.1
+15,2.6.2,xerces-2.6.2
+16,2.7.0,xerces-2.7.0
+17,2.8.0,xerces-2.8.0
+18,2.9.0,xerces-2.9.0
+19,2.9.1,xerces-2.9.1

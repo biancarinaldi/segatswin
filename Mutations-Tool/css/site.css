@@ -17,9 +17,10 @@ h1
 	color: #C3C3C3;
 }
 
-h3
+a
 {
-	margin-bottom: 10px;
+	color: #919191;
+	text-decoration: none;
 }
 
 #container

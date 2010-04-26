@@ -1,0 +1,66 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=bfoPDF-Library
+%type=Library
+%desc=Faceless Java PDF Library
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1, 2.0.0,bfopdf-2.0.0
+2, 2.0.1,bfopdf-2.0.1
+3, 2.0.2,bfopdf-2.0.2
+4, 2.0.3,bfopdf-2.0.3
+5, 2.0.4,bfopdf-2.0.4
+6, 2.0.5,bfopdf-2.0.5
+7, 2.0.6,bfopdf-2.0.6
+8, 2.0.7,bfopdf-2.0.7
+9, 2.0.8,bfopdf-2.0.8
+10, 2.1.0,bfopdf-2.1.0
+11, 2.1.1,bfopdf-2.1.1
+12, 2.1.2,bfopdf-2.1.2
+13, 2.2.0,bfopdf-2.2.0
+14, 2.2.1,bfopdf-2.2.1
+15, 2.2.2,bfopdf-2.2.2
+16, 2.2.3,bfopdf-2.2.3
+17, 2.2.4,bfopdf-2.2.4
+18, 2.2.5,bfopdf-2.2.5
+19, 2.2.6,bfopdf-2.2.6
+20, 2.3.0,bfopdf-2.3.0
+21, 2.3.1,bfopdf-2.3.1
+22, 2.3.2,bfopdf-2.3.2
+23, 2.3.3,bfopdf-2.3.3
+24, 2.3.4,bfopdf-2.3.4
+25, 2.3.5,bfopdf-2.3.5
+26, 2.3.6,bfopdf-2.3.6
+27, 2.3.7,bfopdf-2.3.7
+28, 2.4.0,bfopdf-2.4.0
+29, 2.4.1,bfopdf-2.4.1
+30, 2.4.2,bfopdf-2.4.2
+31, 2.4.3,bfopdf-2.4.3
+32, 2.5.0,bfopdf-2.5.0
+33, 2.5.1,bfopdf-2.5.1
+34, 2.5.2,bfopdf-2.5.2
+35, 2.6.0,bfopdf-2.6.0
+36, 2.6.1,bfopdf-2.6.1
+37, 2.6.2,bfopdf-2.6.2
+38, 2.6.3,bfopdf-2.6.3
+39, 2.6.4,bfopdf-2.6.4
+40, 2.6.5,bfopdf-2.6.5
+41, 2.7.0,bfopdf-2.7.0
+42, 2.7.2,bfopdf-2.7.2
+43, 2.7.4,bfopdf-2.7.4
+44, 2.7.5,bfopdf-2.7.5
+45, 2.7.8,bfopdf-2.7.8
+46, 2.7.9,bfopdf-2.7.9
+47, 2.8.0,bfopdf-2.8.0

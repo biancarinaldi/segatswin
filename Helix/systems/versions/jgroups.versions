@@ -1,0 +1,62 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=JGroups Communication toolkit
+%type=Library
+%desc=A Toolkit for Reliable Multicast Communication
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://www.jgroups.org/
+@release-notes=https://jira.jboss.org/jira/secure/ConfigureReport!default.jspa?selectedProjectId=10053&reportKey=pl.net.mamut:releasenotes
+@defect-log=https://jira.jboss.org/jira/browse/JGRP?report=com.atlassian.jira.plugin.system.project:changelog-panel
+
+
+##### Processing Directives (format: ><Directive>:<Value>) ######
+
+# Excluded Packages #
+
+>excludePackage:demos
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,0.999,jgroups-0.9.9.9
+2,0.9991,jgroups-0.9.9.9.1
+3,1.0.0,jgroups-1.0.0
+4,2.0.0,jgroups-2.0.0
+5,2.0.1,jgroups-2.0.1
+6,2.0.2,jgroups-2.0.2
+7,2.0.3,jgroups-2.0.3
+8,2.0.6,jgroups-2.0.6
+9,2.1.0,jgroups-2.1
+10,2.2.0,jgroups-2.2.0
+11,2.2.1,jgroups-2.2.1
+12,2.2.5,jgroups-2.2.5
+13,2.2.6,jgroups-2.2.6
+14,2.2.7,jgroups-2.2.7
+15,2.2.8,jgroups-2.2.8
+16,2.2.9,jgroups-2.2.9
+17,2.3.0,jgroups-2.3.0
+18,2.4.0,jgroups-2.4.0
+19,2.4.1,jgroups-2.4.1
+20,2.5.0,jgroups-2.5.0
+21,2.6.0,jgroups-2.6.0
+22,2.6.2,jgroups-2.6.2
+23,2.6.3,jgroups-2.6.3
+24,2.6.4,jgroups-2.6.4
+25,2.6.5,jgroups-2.6.5
+26,2.7.0,jgroups-2.7.0
+28,2.8b1,jgroups-2.8b1
+29,2.8b2,jgroups-2.8b2
+30,2.8r1,jgroups-2.8cr1
+31,2.8r2,jgroups-2.8cr2
+32,2.8r3,jgroups-2.8cr3
+33,2.8r6,jgroups-2.8.cr6
+34,2.8r7,jgroups-2.8.cr7
+35,2.8.0.GA,jgroups-2.8.0.GA
+36,2.8.0,jgroups-2.8.0
+36,2.9.0.GA,jgroups-2.9.0.GA

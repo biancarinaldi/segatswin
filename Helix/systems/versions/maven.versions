@@ -1,0 +1,46 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Maven Build management system
+%type=Application
+%desc=Build management system
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Processing Directives (format: ><Directive>:<Value>) ######
+
+# Included Packages #
+
+>includePackage:maven
+
+# Excluded Packages #
+
+>excludePackage:plexus
+>excludePackage:hidden
+>excludePackage:commons
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,2.0a1,maven-2.0-alpha-1
+2,2.0a2,maven-2.0-alpha-2
+3,2.0a3,maven-2.0-alpha-3
+4,2.0b1,maven-2.0-beta-1
+5,2.0b2,maven-2.0-beta-2
+6,2.0b3,maven-2.0-beta-3
+7,2.0.0,maven-2.0
+8,2.0.3,maven-2.0.3
+9,2.0.5,maven-2.0.5
+10,2.0.6,maven-2.0.6
+11,2.0.7,maven-2.0.7
+12,2.0.8,maven-2.0.8
+13,2.0.9,maven-2.0.9
+14,2.1m1,maven-2.1.0-M1

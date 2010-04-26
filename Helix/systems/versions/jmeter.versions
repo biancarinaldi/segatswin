@@ -1,0 +1,40 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=JMeter testing tool kit
+%type=Application
+%desc=Testing tool kit
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,1.6.1,jmeter-1.6.1
+2,1.7.0,jmeter-1.7
+3,1.8.0,jmeter-1.8.0
+4,1.8.1,jmeter-1.8.1
+5,1.9.0,jmeter-1.9.0
+6,1.9.1,jmeter-1.9.1
+7,2.0.0,jmeter-2.0.0
+8,2.0.1,jmeter-2.0.1
+9,2.0.2,jmeter-2.0.2
+10,2.0.3,jmeter-2.0.3
+11,2.1r1,jmeter-2.1rc1
+12,2.1.0,jmeter-2.1
+13,2.1.1,jmeter-2.1.1
+14,2.2.0,jmeter-2.2
+15,2.3r3,jmeter-2.3RC3
+16,2.3r4,jmeter-2.3RC4
+17,2.3.0,jmeter-2.3
+18,2.3.1,jmeter-2.3.1
+19,2.3.2,jmeter-2.3.2
+20,2.3.3,jmeter-2.3.3
+21,2.3.4,jmeter-2.3.4

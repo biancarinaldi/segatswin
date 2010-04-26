@@ -1,0 +1,48 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=JChempaint Chemistry Visualisation toolkit
+%type=Application
+%desc=Chemistry Visualisation Toolkit
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Processing Directives (format: ><Directive>:<Value>) ######
+
+# Included Packages #
+
+>includePackage:openscience
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,1.9.7,jchempaint-1.9.7
+2,1.9.8,jchempaint-1.9.8
+3,1.9.9,jchempaint-1.9.9
+4,1.9.10,jchempaint-1.9.10
+5,1.9.11,jchempaint-1.9.11
+6,1.9.12,jchempaint-1.9.12
+7,2.0.0,jchempaint-2.0.0
+8,2.0.4,jchempaint-2.0.4
+9,2.0.6,jchempaint-2.0.6
+10,2.0.7,jchempaint-2.0.7
+11,2.0.8,jchempaint-2.0.8
+12,2.0.10,jchempaint-2.0.10
+13,2.0.11,jchempaint-2.0.11
+14,2.0.12,jchempaint-2.0.12
+15,2.2.0,jchempaint-2.2.0
+16,2.2.1,jchempaint-2.2.1
+17,2.3.0,jchempaint-2.3.0
+18,2.3.1,jchempaint-2.3.1
+19,2.3.3,jchempaint-2.3.3
+20,2.4.0,jchempaint-2.4.0
+21,3.0,jchempaint-3.0
+21,3.0.1,jchempaint-3.0.1

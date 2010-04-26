@@ -1,0 +1,38 @@
+#content ol li
+{
+	margin-left: 25px;
+}
+
+.command
+{
+	padding: 15px;
+	margin: 25px 10px;
+	background-color: #919191;
+	color: #353535;
+	border: 1px solid #353535;
+	display: block;
+	font: 14px Courier;
+}
+
+.section
+{
+	margin-bottom: 30px;
+}
+
+.subsection
+{
+	margin-bottom: 20px;
+}
+
+.subsection dt
+{
+	font-weight: bold;	
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.subsection dd
+{
+	text-indent: 20px;
+	margin-bottom: 10px;
+}

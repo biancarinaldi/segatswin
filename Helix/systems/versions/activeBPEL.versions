@@ -1,0 +1,42 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=ActiveBPEL Engine
+%type=Library
+%desc=Business Process Execution Language Engine
+%gui=N
+%commercial=Y
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://sourceforge.net/projects/activebpel/
+@release-notes=http://www.activevos.com/community-open-source-release-notes.php
+@defect-log=http://www.activevos.com/community-open-source-release-notes.php
+
+
+##### Processing Directives (format: ><Directive>:<Value>) ######
+
+# Included Packages #
+
+>includePackage:activebpel
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1, 0.9.0, activebpel-0.9.0
+2, 1.0r1, activebpel-1.0-RC1
+3, 1.0.0, activebpel-1.0.0
+4, 1.0.10, activebpel-1.0.10
+5, 1.0.11, activebpel-1.0.11
+6,1.1.0, activebpel-1.1
+7,1.2.0, activebpel-1.2
+8,2.0.0, activebpel-2.0.0
+9,2.1.0, activebpel-2.1
+10,3.0m2, activebpel-3.0.0M2
+11,3.0.0, activebpel-3.0.0
+12,3.1.0, activebpel-3.1
+13,4.0.0, activebpel-4.0
+14,4.1.0, activebpel-4.1
+15,5.0.0, activebpel-5.0
+16,5.0.2, activebpel-5.0.2

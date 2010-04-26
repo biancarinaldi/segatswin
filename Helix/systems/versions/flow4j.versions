@@ -1,0 +1,48 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Flow4J flow Eclipse plugin
+%type=Application
+%desc=Process flow modeling tool
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,0.1.4,flow4j-0.1.4
+2,0.1.6,flow4j-0.1.6
+3,0.1.8,flow4j-0.1.8
+4,0.2.0,flow4j-0.2.0
+5,0.2.1,flow4j-0.2.1
+6,0.2.3,flow4j-0.2.3
+7,0.2.4,flow4j-0.2.4
+8,0.3.0,flow4j-0.3.0
+9,0.3.1,flow4j-0.3.1
+10,0.4.0,flow4j-0.4.0
+11,0.5.0,flow4j-0.5.0
+12,0.6.0,flow4j-0.6.0
+13,0.6.0,flow4j-0.6.1
+14,0.6.0,flow4j-0.6.2
+15,0.6.0,flow4j-0.6.3
+16,0.7.0,flow4j-0.7.0
+17,0.7.0,flow4j-0.7.1
+18,0.7.0,flow4j-0.7.2
+19,0.8.0,flow4j-0.8.0
+20,0.8.0,flow4j-0.8.2
+21,0.8.0,flow4j-0.8.4
+22,0.8.0,flow4j-0.8.6
+23,0.8.0,flow4j-0.8.8
+24,0.9.0,flow4j-0.9.0
+25,0.9.0,flow4j-0.9.1
+26,0.9.0,flow4j-0.9.2
+27,0.9.0,flow4j-0.9.3
+28,0.9.0,flow4j-0.9.4
+29,1.0.4,flow4j-1.0.4

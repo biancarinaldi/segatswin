@@ -1,0 +1,30 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=ASM
+%type=Library
+%desc=Bytecode extraction tool
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1, 1.4.2,asm-1.4.2
+2, 1.4.3,asm-1.4.3
+3, 1.5.0,asm-1.5
+4, 2.0.a,asm-2.0_alpha
+5, 2.0rc1,asm-2.0.RC1
+6, 2.0.0,asm-2.0
+7, 2.1.0,asm-2.1
+8, 2.2.0,asm-2.2
+9, 2.2.1,asm-2.2.1
+10, 3.0.b,asm-3.0_beta
+11, 3.0.0,asm-3.0

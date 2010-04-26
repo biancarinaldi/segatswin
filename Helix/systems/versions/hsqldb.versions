@@ -1,0 +1,37 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=HSQLDB
+%type=Application
+%desc=Lightweight DBMS
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,1.7.1r1,hsqldb-1.7.1.r1
+2,1.7.1r5,hsqldb-1.7.1.r5
+3,1.7.1,hsqldb-1.7.1
+4,1.7.2a1,hsqldb-1.7.2-alpha-h
+5,1.7.2a2,hsqldb-1.7.2-alpha-l
+6,1.7.2a3,hsqldb-1.7.2-alpha-t
+7,1.7.2rc1,hsqldb-1.7.2-rc1
+8,1.7.2rc6,hsqldb-1.7.2-rc6c
+9,1.7.2.11,hsqldb-1.7.2.11
+10,1.7.3.3,hsqldb-1.7.3.3
+11,1.8.0.r8,hsqldb-1.8.0.r8
+12,1.8.0.1,hsqldb-1.8.0.1
+13,1.8.0.2,hsqldb-1.8.0.2
+14,1.8.0.4,hsqldb-1.8.0.4
+15,1.8.0.5,hsqldb-1.8.0.5
+16,1.8.0.7,hsqldb-1.8.0.7
+17,1.8.0.8,hsqldb-1.8.0.8
+18,1.8.0.9,hsqldb-1.8.0.9

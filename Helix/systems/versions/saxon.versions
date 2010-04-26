@@ -1,0 +1,41 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Saxon
+%type=Library
+%desc=XML and XSLT processor
+%gui=N
+%commercial=Y
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://saxon.sourceforge.net/
+@release-notes=http://sourceforge.net/projects/saxon/files/
+@defect-log=http://sourceforge.net/tracker/?group_id=29872&atid=397617
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1, 7.4.0, saxon-7.4
+2, 7.5.0, saxon-7.5.0
+3, 7.5.1, saxon-7.5.1
+4, 7.6.0, saxon-7.6.0
+5, 7.7.0, saxon-7.7
+6, 7.8.0, saxon-7.8
+7, 7.9.0, saxon-7.9.0
+8, 7.9.1, saxon-7.9.1
+9, 8.0.0, saxon-8.0
+10, 8.1.0, saxon-8.1.0
+11, 8.1.1, saxon-8.1.1
+12, 8.2.0, saxon-8.2
+13, 8.3.0, saxon-8.3
+14, 8.4.0, saxon-8.4
+15, 8.5.0, saxon-8.5
+16, 8.6.0, saxon-8.6
+17, 8.7.0, saxon-8.7
+18, 8.7.1, saxon-8.7.1
+19, 8.7.3, saxon-8.7.3
+20, 8.8.0, saxon-8.8
+21, 8.9.0, saxon-8.9
+22, 9.0.1, saxon-9.0.1

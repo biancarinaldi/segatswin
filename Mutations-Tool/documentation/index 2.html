@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Mutations - User Manual</title>
+	<link rel="stylesheet" href="../css/site.css" type="text/css" />
+	<link rel="stylesheet" href="../css/documentation.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="top">
+		<div id="header">
+			<h1>Mutations</h1>
+		</div>
+		<ul id="nav">
+			<li><a href="../">Home</a></li>
+			<li><a href="../overview">Overview</a></li>
+			<li><a href="../download">Download</a></li>
+			<li><a href="#">Documentation</a></li>
+			<li><a href="../getsourcecode">Get Source Code</a></li>
+			<li><a href="../participate">Participate</a></li>
+			<li><a href="../citing">Citing the Tool</a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<h2>User Manual</h2>
+		<div id="content">
+			<div class="section">
+				<h3>Installation and Configuration</h3>
+				<div class="subsection">
+					<h4>Installation</h4>
+					<p>To install Mutations, you must take the following steps:</p>
+					<ol>
+						<li>Create and set the MUTATIONS_HOME environment variable to the root directory for the Mutations source folder to the system path.</li>
+						<li>Create and set the MUTATIONS_CONFIG environment variable to the Mutations.properties configuration file. If this file does not currently exist, create an empty file with that name.</li>
+					</ol>
+				</div>
+				<div class="subsection">
+					<h4>Configuration</h4>
+					<p>Next, you will need to set the configuration setting for the builds directory, which is where the systems you wish to run Mutations on are stored. To do this, change (or add if it does not exist) the following setting to your Mutations.properties file:
+						buildsDirectory=&lt;<em class="commanduserinput">Builds Directory&gt;</em>
+					</p>
+					<p>In this case, &lt;<em class="commanduserinput">Builds Directory&gt;</em> will be replaced with the path to your builds directory, for example:
+						<span class="command">buildsDirectory=/Users/ajones/Development/builds</span>
+					</p>
+				</div>
+			</div>
+			<div class="section">
+				<h3>Running the Application</h3>
+				<p>There are two ways of running Mutations, either using the Ant build script (build.xml) supplied with the source code, or using the metXF bash script.
+				</p>
+				<div class="subsection">
+				<h4>Running with Ant build script</h4>
+				<p>To run Mutations using the Ant build script, you must take the following steps:</p>
+				<ol>
+					<li>Navigate to the MUTATIONS_HOME directory</li>
+					<li>Run Mutations using the command: ant run -Dargs="&lt;<em class="commanduserinput">args</em>&gt;", replacing &lt;<em class="commanduserinput">args</em>&gt; with the arguments you wish to pass to Mutations, for example:
+						<span class="command">ant run -Dargs="ant/ant.versions 20 y y methodCount 0 ,"</span>
+					</li>
+				</ol>
+				</div>
+				<div class="subsection">
+				<h4>Running with metXF bash script</h4>
+				<p>To run Mutations using the metXF bash script, you must take the following steps:</p>
+				<ol>
+					<li>Navigate to the MUTATIONS_HOME directory</li>
+					<li>Run the command <span class="command-embedded">ant package</span>. This will compile Mutations into an a JAR file (under lib/Mutations.jar) that the metXF will use to execute Mutations.</li>
+					<li>Ensure you have permissions to execute the metXF bash script, by entering the command:
+						<span class="command">chmod u+x metXF</span>
+						This grants users execution privileges for the metXF file.</li>
+					<li>Run Mutations using the command <span class="command-embedded">./metXF <em class="commanduserinput">&lt;System Name&gt;</em> <em class="commanduserinput">&lt;Arg1&gt;</em> ... <em class="commanduserinput">&lt;ArgN&gt;</em></span>, where &lt;System Name&gt; is the name of the system you wish to run Mutations on and &lt;Arg1&gt; ... &lt;ArgN&gt; are the arguments you wish to pass to Mutations.</li>
+				</ol>
+				</div>
+				<div class="subsection">
+					<h4>Arguments</h4>
+					<p>When executing Mutations, a total of 7 arguments can be passed to the application. The argument ordering is defined as:
+						./metxF
+						<em class="commanduserinput">&lt;System Name&gt;</em>
+						<em class="commanduserinput">&lt;Report Code&gt;</em>
+						<em class="commanduserinput">&lt;Show Header&gt;</em>
+						<em class="commanduserinput">&lt;Show Processing&gt;</em>
+						<em class="commanduserinput">&lt;Report Arg 1&gt;</em>
+						<em class="commanduserinput">&lt;Report Arg 2&gt;</em>
+						<em class="commanduserinput">&lt;Report Arg 3&gt;</em>
+						An example of executing the ./metxF file is as follows:
+						<span class="command">
+							./metxF ant 20 y y methodCount 0 ,
+						</span>
+					</p>
+					<h5>Argument Definitions</h5>
+					<p>The arguments that can be passed to Mutations are defined as:</p>
+					<dl>
+						<dt>System Name</dt>
+						<dd>The short name (first word) of the system to be analysed.</dd>
+						<dt>Report Code</dt>
+						<dd>The numeric code corresponding to the report to generate from the extracted data.</dd>
+						<dt>Show Header</dt>
+						<dd>A flag (Y/N) to indicate whether to show header on tabular reports being output.</dd>
+						<dt>Show Processing</dt>
+						<dd>A flag (Y/N) to indicate whether to show progress of processing occurring through the duration of execution.</dd>
+						<dt>Report Arg 1, 2, 3</dt>
+						<dd>Report specific arguments. See the Reports section for the list of arguments for each of the different reports.</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="section">
+				<h3>Reports</h3>
+				<div class="subsection">
+					<h4>Summary Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<span class="command">
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Type</th>
+									<th>Releases</th>
+									<th>Age (Weeks)</th>
+									<th>Initial Size</th>
+									<th>Final Size</th>
+									<th>Change</th>
+									<th>Growth Type</th>
+									<th>Description</th>
+									<th>Last Release</th>
+									<th>Last Updated</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Ant</td>
+									<td>App</td>
+									<td>12</td>
+									<td>414</td>
+									<td>70</td>
+									<td>502</td>
+									<td>20.0485</td>
+									<td>Sub-Linear</td>
+									<td>Build Management System</td>
+									<td>1.7.1</td>
+									<td>Jun-2008</td>
+								</tr>
+							</tbody>
+						</table>
+					</span>
+				</div>
+				<div class="subsection">
+					<h4>Gini Detailed Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<table>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Type</th>
+								<th>Metric</th>
+								<th>RSN</th>
+								<th>ID</th>
+								<th>Size</th>
+								<th>Modified</th>
+								<th>New</th>
+								<th>Gini</th>
+								<th>Gini95</th>
+								<th>Gini80</th>
+								<th>zGini</th>
+								<th>zGini95</th>
+								<th>zGini80</th>
+								<th>modGini</th>
+								<th>newGini</th>
+								<th>noNewGini</th>
+								<th>noNewZGini</th>
+								<th>Movement</th>
+								<th>giniTrigger</th>
+								<th>zGiniTrigger</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Ant</td>
+								<td>App</td>
+								<td>fieldCount</td>
+								<td>11</td>
+								<td>1.7.0</td>
+								<td>2338</td>
+								<td>493</td>
+								<td>242</td>
+								<td>117</td>
+								<td>0</td>
+								<td>0.926</td>
+								<td>0.932</td>
+								<td>0</td>
+								<td>0.972</td>
+								<td>0.974</td>
+								<td>0</td>
+								<td>0.833</td>
+								<td>0.602</td>
+								<td>0.533</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>Ant</td>
+								<td>App</td>
+								<td>fieldCount</td>
+								<td>12</td>
+								<td>1.7.1</td>
+								<td>2900</td>
+								<td>502</td>
+								<td>164</td>
+								<td>9</td>
+								<td>0</td>
+								<td>0.926</td>
+								<td>0.932</td>
+								<td>0</td>
+								<td>0.971</td>
+								<td>0.973</td>
+								<td>0</td>
+								<td>0</td>
+								<td>0.602</td>
+								<td>0.531</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="subsection">
+					<h4>Frequency Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<p>...</p>
+					<h4>Metric History Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<dl>
+						<dt>1. Metric</dt>
+						<dd>The metric to show the metric for, e.g., methodCount, fieldCount</dd>
+						<dt>2. Add Value</dt>
+						<dd>0 or 1 [TODO: Needs further explanation]</dd>
+						<dt>3. Separator</dt>
+						<dd>Separator to be used for tabular output (SPACE, COMMA, TAB)</dd>
+					</dl>
+					<h5>Output Format</h5>
+					<p>...</p>
+					<h4>Prediction Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<p>...</p>
+					<h4>Raw Count Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<p>...</p>
+					<h4>Histogram Prediction Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<p>...</p>
+					<h4>Outlying Versions Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<p>...</p>
+					<h4>Focus Report</h4>
+					<h5>Description</h5>
+					<p>Description</p>
+					<h5>Report Arguments</h5>
+					<p>N/A</p>
+					<h5>Output Format</h5>
+					<p>...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

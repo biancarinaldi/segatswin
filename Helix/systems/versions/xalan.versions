@@ -1,0 +1,41 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Xalan XSLT Processor
+%type=Library
+%desc=XSLT Processor
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://xml.apache.org/xalan-j/
+@release-notes=http://xml.apache.org/xalan-j/readme.html
+@defect-log=https://issues.apache.org/jira/browse/XALANJ?report=com.atlassian.jira.plugin.system.project:popularissues-panel
+
+
+##### Processing Directives (format: ><Directive>:<Value>) ######
+
+# Included Packages #
+
+>includePackage:apache
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,1.0.0,xalan-1.0.0
+2,2.0.0,xalan-2.0.0
+3,2.0.1,xalan-2.0.1
+4,2.1.0,xalan-2.1.0
+5,2.2.0,xalan-2.2.0
+6,2.3.1,xalan-2.3.1
+7,2.4.0,xalan-2.4.0
+8,2.4.1,xalan-2.4.1
+9,2.5d1,xalan-2.5.D1
+10,2.5.0,xalan-2.5.0
+11,2.5.1,xalan-2.5.1
+12,2.5.2,xalan-2.5.2
+13,2.6.0,xalan-2.6.0
+14,2.7.0,xalan-2.7.0
+15,2.7.1,xalan-2.7.1

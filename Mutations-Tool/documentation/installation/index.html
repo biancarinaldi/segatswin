@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Mutations - Installation Guide</title>
+	<link rel="stylesheet" href="../../css/site.css" type="text/css" />
+	<link rel="stylesheet" href="../../css/documentation.css" type="text/css" />
+</head>
+<body>
+<div id="container">
+	<div id="top">
+		<div id="header">
+			<h1>Mutations</h1>
+		</div>
+		<ul id="nav">
+			<li><a href="../../">Home</a></li>
+			<li><a href="../../overview">Overview</a></li>
+			<li><a href="../../download">Download</a></li>
+			<li><a href="../../documentation">Documentation</a></li>
+			<li><a href="../../getsourcecode">Get Source Code</a></li>
+			<li><a href="../../participate">Participate</a></li>
+			<li><a href="../../citing">Citing the Tool</a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<h2>Installation Guide</h2>
+		<div id="content">
+			<div class="section">
+				<h3>Installation</h3>
+				<p>To install Mutations, you must take the following steps:</p>
+				<ol>
+					<li><a href="../../download">Download Mutations</a></li>
+					<li>Extract the contents of the Mutations archive file to a directory.</li>
+					<li>Create and set the MUTATIONS_HOME environment variable to the root directory for the Mutations folder (chosen in the previous step) to the system path.</li>
+					<li>Create and set the MUTATIONS_CONFIG environment variable to the Mutations.properties configuration file. If this file does not currently exist, create an empty file with that name.</li>
+				</ol>
+			</div>
+			<div class="section">
+				<h3>Configuration</h3>
+				<p>Next, you will need to set the configuration setting for the builds directory, which is where the systems you wish to run Mutations on are stored. To do this, change (or add if it does not exist) the following setting to your Mutations.properties file:
+					buildsDirectory=&lt;<em class="commanduserinput">Builds Directory&gt;</em>
+				</p>
+				<p>In this case, &lt;<em class="commanduserinput">Builds Directory&gt;</em> will be replaced with the path to your builds directory, for example:
+					<span class="command">buildsDirectory=/Users/ajones/Development/builds</span>
+				</p>
+			</div>
+			<div class="section">
+				<h3>Using Mutations</h3>
+				<p>Now that you have installed and configured Mutations, it should now be ready for use. For instructions on how to use Mutations, proceed to the <a href="../usermanual">User Manual</a>.</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

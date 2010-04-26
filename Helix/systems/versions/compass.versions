@@ -1,0 +1,44 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Compass Search Engine
+%type=Library
+%desc=Search Engine
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://www.compass-project.org/
+@release-notes=http://issues.compass-project.org/secure/ConfigureReleaseNote.jspa?projectId=10000
+@defect-log=http://issues.compass-project.org/browse/CMP?report=com.atlassian.jira.plugin.system.project:openissues-panel
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,0.6.2,compass-0.6.2
+2,0.7.0,compass-0.7.0
+3,0.8.0,compass-0.8.0
+4,0.8.1,compass-0.8.1
+5,0.9.0,compass-0.9.0
+6,0.9.1,compass-0.9.1
+7,1.0.0,compass-1.0.0
+8,1.1M1,compass-1.1M1
+9,1.1M2,compass-1.1M2
+10,1.1M3,compass-1.1M3
+11,1.1.0,compass-1.1.0
+12,1.2M2,compass-1.2M2
+13,1.2.0,compass-1.2
+14,2.0M1,compass-2.0M1
+15,2.0M2,compass-2.0.0M2
+16,2.0M3,compass-2.0.0M3
+17,2.0.0,compass-2.0.0
+18,2.1M1,compass-2.1.0-M1
+19,2.1M2,compass-2.1.0-M2
+20,2.1M3,compass-2.1.0-M3
+21,2.1M4,compass-2.1.0-M4
+22,2.1R1,compass-2.1.0-RC
+23,2.1.0,compass-2.1.0
+24,2.1.1,compass-2.1.1
+25,2.2.0,compass-2.2.0

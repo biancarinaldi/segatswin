@@ -1,0 +1,40 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Javolution real-time libraries
+%type=Library
+%desc=High performance Java base class implementation library
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,2.1.0,javolution-2.1.0
+2,2.2.4,javolution-2.2.4
+3,2.2.5,javolution-2.2.5
+4,3.0.8,javolution-3.0.8
+5,3.2.1,javolution-3.2.1
+6,3.2.9,javolution-3.2.9
+7,3.3.1,javolution-3.3.1
+8,3.4.0,javolution-3.4.0
+9,3.5.0,javolution-3.5.0
+10,3.6.10,javolution-3.6.10
+11,3.7.7,javolution-3.7.7
+12,4.0.0,javolution-4.0.0
+13,4.1.0,javolution-4.1.0
+14,4.2.8,javolution-4.2.8
+15,5.0.2,javolution-5.0.2
+16,5.1.0,javolution-5.1.0
+17,5.2.0,javolution-5.2.0
+18,5.2.1,javolution-5.2.1
+19,5.2.3,javolution-5.2.3
+20,5.2.4,javolution-5.2.4
+21,5.2.6,javolution-5.2.6

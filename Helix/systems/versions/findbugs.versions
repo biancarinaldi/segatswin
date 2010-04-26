@@ -1,0 +1,38 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Findbugs
+%type=Application
+%desc=Defect identification tool
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://findbugs.sourceforge.net/
+@release-notes=http://findbugs.sourceforge.net/Changes.html
+@defect-log=http://sourceforge.net/tracker/?atid=614693&group_id=96405&func=browse
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,0.7.2,findbugs-0.7.2
+2,0.8.0,findbugs-0.8.0
+3,0.9.0,findbugs-0.9.0
+4,0.9.3,findbugs-0.9.3
+5,0.9.5,findbugs-0.9.5
+6,1.0.0,findbugs-1.0.0
+7,1.1.0,findbugs-1.1.0
+8,1.1.1,findbugs-1.1.1
+9,1.1.2,findbugs-1.1.2
+10,1.2.0,findbugs-1.2.0
+11,1.2.1,findbugs-1.2.1
+12,1.3.0,findbugs-1.3.0
+13,1.3.2,findbugs-1.3.2
+14,1.3.4,findbugs-1.3.4
+15,1.3.5,findbugs-1.3.5
+16,1.3.6r2,findbugs-1.3.6rc2
+17,1.3.6,findbugs-1.3.6
+18,1.3.7,findbugs-1.3.7
+19,1.3.8,findbugs-1.3.8

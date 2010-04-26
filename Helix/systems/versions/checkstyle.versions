@@ -1,0 +1,38 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Checkstyle Java source code quality checking tool
+%type=Application
+%desc=Static Code Quality Checker
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://checkstyle.sourceforge.net/
+@release-notes=http://checkstyle.sourceforge.net/releasenotes.html
+@defect-log=http://sourceforge.net/tracker/?atid=397078&group_id=29721&func=browse
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,3.0.0,checkstyle-3.0
+2,3.1.0,checkstyle-3.1
+3,3.2.0,checkstyle-3.2
+4,3.3.0,checkstyle-3.3
+5,3.4.0,checkstyle-3.4
+6,3.5.0,checkstyle-3.5
+7,4.0b1,checkstyle-4.0-beta1
+8,4.0b3,checkstyle-4.0-beta3
+9,4.0b4,checkstyle-4.0-beta4
+10,4.0b5,checkstyle-4.0-beta5
+11,4.0b6,checkstyle-4.0-beta6
+12,4.0.0,checkstyle-4.0
+13,4.1.0,checkstyle-4.1
+14,4.2.0,checkstyle-4.2
+15,4.3.0,checkstyle-4.3
+16,4.4.0,checkstyle-4.4
+17,5.0b1,checkstyle-5.0-beta01
+18,5.0,checkstyle-5.0
+19,5.1,checkstyle-5.1

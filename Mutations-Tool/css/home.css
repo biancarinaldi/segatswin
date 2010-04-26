@@ -1,0 +1,25 @@
+.feature
+{
+	width: 280px;
+	float: left;
+	font-size: 12px;
+	height: 120px;
+	margin: 0 10px;
+	
+}
+
+.feature img
+{
+	float: left;
+	margin-right: 15px;
+}
+
+#splash
+{
+	height: 400px;
+}
+
+#content
+{
+	min-height: 650px;
+}

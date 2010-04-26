@@ -1,0 +1,34 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Jameleon Testing framework
+%type=Application
+%desc=Testing framework
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+2,3.0.0,jameleon-3.0.0
+3,3.0.1,jameleon-3.0.1
+4,3.0.2,jameleon-3.0.2
+5,3.0.3,jameleon-3.0.3
+6,3.0.4,jameleon-3.0.4
+7,3.0.5,jameleon-3.0.5
+8,3.2.0,jameleon-3.2.0
+9,3.2.1,jameleon-3.2.1
+10,3.2.2,jameleon-3.2.2
+11,3.3M1,jameleon-3.3M1
+12,3.3M2,jameleon-3.3M2
+13,3.3M3,jameleon-3.3M3
+14,3.3M4,jameleon-3.3M4
+15,3.3M5,jameleon-3.3M5
+16,3.3R1,jameleon-3.3RC1

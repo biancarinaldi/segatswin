@@ -1,0 +1,35 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=Log4J
+%type=Library
+%desc=Logging framework
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=
+@release-notes=
+@defect-log=
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,1.2b4,log4j-1.2beta4
+2,1.2r1,log4j-1.2rc1
+3,1.2.1,log4j-1.2.1
+4,1.2.2,log4j-1.2.2
+5,1.2.3,log4j-1.2.3
+6,1.2.4,log4j-1.2.4
+7,1.2.5,log4j-1.2.5
+8,1.2.6,log4j-1.2.6
+9,1.2.7,log4j-1.2.7
+10,1.2.8,log4j-1.2.8
+11,1.2.9,log4j-1.2.9
+12,1.2.11,log4j-1.2.11
+13,1.2.12,log4j-1.2.12
+14,1.2.13,log4j-1.2.13
+15,1.2.14,log4j-1.2.14
+16,1.2.15,log4j-1.2.15

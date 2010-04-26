@@ -1,0 +1,40 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=JFreeChart Charting library
+%type=Library
+%desc=Charting library
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://www.jfree.org/jfreechart/
+@release-notes=http://sourceforge.net/projects/jfreechart/files/
+@defect-log=http://sourceforge.net/tracker/?group_id=15494&atid=115494
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,0.7.1,jfreechart-0.7.1
+2,0.7.2,jfreechart-0.7.2
+3,0.7.4,jfreechart-0.7.4
+4,0.8.0,jfreechart-0.8.0
+5,0.9.0,jfreechart-0.9.0
+6,0.9.1,jfreechart-0.9.1
+7,0.9.3,jfreechart-0.9.3
+8,0.9.6,jfreechart-0.9.6
+9,0.9.10,jfreechart-0.9.10
+10,0.9.14,jfreechart-0.9.14
+11,0.9.15,jfreechart-0.9.15
+12,0.9.16,jfreechart-0.9.16
+13,0.9.17,jfreechart-0.9.17
+14,0.9.21,jfreechart-0.9.21
+15,1.0.0,jfreechart-1.0.0
+16,1.0.4,jfreechart-1.0.4
+17,1.0.9,jfreechart-1.0.9
+18,1.0.10,jfreechart-1.0.10
+19,1.0.11,jfreechart-1.0.11
+20,1.0.12,jfreechart-1.0.12
+21,1.0.13,jfreechart-1.0.13

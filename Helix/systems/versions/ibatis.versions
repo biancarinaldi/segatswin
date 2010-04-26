@@ -1,0 +1,44 @@
+##### Metadata #####
+
+# System Metadata (format: %<Name>=<Value>) #
+
+%name=iBatis
+%type=Framework
+%desc=Data persistence framework
+%gui=N
+%commercial=N
+
+# Links (format: %<Name>=<URL>) #
+
+@project=http://ibatis.apache.org/
+@release-notes=https://issues.apache.org/jira/browse/IBATIS?report=com.sourcelabs.jira.plugin.portlet.releases:releases-projecttab
+@defect-log=https://issues.apache.org/jira/browse/IBATIS?report=com.atlassian.jira.plugin.system.project:changelog-panel
+
+
+##### Versions (format: <RSN>, <ID>, <File/Dir>) #####
+
+1,2.0.0.114,iBATIS-2.0.0.114
+2,2.0.0.150,iBATIS-2.0.0.150
+3,2.0.0.159,ibatis-2.0.0.159
+4,2.0.0.174,ibatis-2.0.0.174
+5,2.0.0.194,ibatis-2.0.0.194
+6,2.0.0.203,ibatis-2.0.0.203
+7,2.0.0.243,ibatis-2.0.0.243
+8,2.0.0.274,ibatis-2.0.0.274
+9,2.0.0.281,ibatis-2.0.0.281
+10,2.0.1.282,ibatis-2.0.1.282
+11,2.0.2.287,ibatis-2.0.2.287
+12,2.0.3.313,ibatis-2.0.3.313
+13,2.0.4.346,ibatis-2.0.4.346
+14,2.0.5.399,ibatis-2.0.5.399
+15,2.0.6.414,ibatis-2.0.6.414
+16,2.0.7.459,ibatis-2.0.7.459
+17,2.0.8.470,ibatis-2.0.8.470
+18,2.0.9.496,ibatis-2.0.9.496
+19,2.1.0.565,ibatis-2.1.0.565
+20,2.1.5.582,ibatis-2.1.5.582
+21,2.1.6.589,ibatis-2.1.6.589
+22,2.1.7.597,ibatis-2.1.7.597
+23,2.2.0.638,ibatis-2.2.0.638
+24,2.3.0.677,ibatis-2.3.0.677
+25,2.3.1.710,ibatis-2.3.1.710
